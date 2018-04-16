@@ -1,5 +1,9 @@
 package MedievalBattles;
-
+/*
+ * @author Tomás L
+ * Clase FruitTree. Implementa Attackable lo que le permite ser atacada.
+ * Si es atacada por un Human o Goblin estos recuperan un porcentaje de HP
+ * */
 public class FruitTree implements Attackable {
 
     public FruitTree(){
